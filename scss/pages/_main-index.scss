@@ -1,0 +1,86 @@
+main .carousel img{
+    height: 300px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+main article .contenedorinfo{
+    background-color: rgba(0,0,0,.1);
+    margin-top: 20px;
+    .contenedorservicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    }
+    .logoservicio{
+        width: 40px;
+        margin-top: 5PX;
+    }
+    .textservicio{
+        font-size: 17px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 70%;
+        color: black;
+    }
+}
+
+main .contenidoiphone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px; 
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card .card-img-top{
+        width: 140px;
+    }
+}
+
+main article .contenidopregunta{
+    background-color: rgba(128, 0, 128, 0.582);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    .textpregunta{
+        font-size: 22px;
+        text-align: center;
+        color: #000;
+    }
+    .textinput{
+        width: 300px;
+        border-radius: 20px;
+    }
+    .textboton{
+        margin-top: 5px;
+        width: 60px;
+        border-radius: 20px;
+        background-color: black;
+        color: aliceblue;
+    }
+}
+
+main .metodosdepago{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .textpago{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .imagenpago{
+        width: 100%;
+        height: 50px;
+    }
+}

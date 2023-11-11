@@ -1,0 +1,81 @@
+.imagenform{
+    background-image: url(./../assets/espaciaal.png);
+    background-size: cover;
+}
+.form-contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+main section .contenidoform{
+    padding: 20px 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    .textform{
+        font-size: 35px;
+        background-color: white;
+        border-radius: 40px;
+        margin-top: 30px;
+    }
+    .input-form{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 30px;
+    }
+    label{
+        color: #020202;
+        font-size: 20px;
+        margin-bottom: 15px;
+        background-color: white;
+        border-radius: 10px;
+        width: 70px;
+    }
+    input{
+        padding: 20px 25px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: #edfff0;
+        border: 2px solid #f0faf1;
+        color: #283629;
+    }  
+    textarea{
+        padding: 20px 25px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: #edfff0;
+        border: 2px solid #f0faf1;
+        color: #283629;
+    }  
+    .boton{
+        font-size: 16px;
+        color: black;
+        border-radius: 25px;
+        box-shadow: 0 0 20px rgb(78, 78, 121);
+    }
+    
+    .boton:hover {
+        background-color: rgb(94, 94, 155);
+    }
+}
+
+.form-text{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+    a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 30px; 
+    }
+}

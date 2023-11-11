@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px){
+    main section .contenedorairpods{
+        padding: 45px;
+    }
+    .textpods{
+        font-size: 70px;
+    }
+    .textpods_Tergene{
+        font-size: 70px;
+    }
+    .textpods_Max{
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    main section .contenedorairpods{
+        padding: 65px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .contenedorairpods{
+        width: 50%;
+        margin-left: 24%;
+    }
+    .textpods{
+        font-size: 65px;
+        width: 30%;
+        box-shadow: 10px 0 20px black;
+    }
+    .textpods_Tergene{
+        font-size: 65px;
+        width: 30%;
+        box-shadow: 10px 0 20px black;
+    }
+    .textpods_Max{
+        font-size: 65px;
+        box-shadow: 10px 0 20px black;
+    }
+    .contenedorairpodsmax{
+        height: 500px;
+    }
+    .airpodsmaxs{
+        height: 500px;
+    }
+}

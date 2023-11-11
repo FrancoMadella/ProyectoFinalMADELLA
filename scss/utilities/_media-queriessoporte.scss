@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px){
+    main section .contenidoform{
+        width: 70%;
+    }
+    .input-form input{
+        width: 400px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .textform{
+        width: 400px;
+
+    }
+    main section .contenidoform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main section .contenidoform{
+        width: 50%;
+    }
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0000008f;
+}
+
+footer img{
+    width: 200px;
+}
+
+footer .contenedor-redes img{
+    width: 70px;
+}

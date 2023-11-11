@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px){
+    .contenedormac{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .contenedormac{
+        grid-template-columns: repeat(3, 3fr);
+    }
+    main section .contenidomac .imagenmac{
+        height: 400px;
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .contenedormac{
+        width: 50%;
+        margin-left: 25%;
+    }
+}

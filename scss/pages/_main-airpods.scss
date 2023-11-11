@@ -1,0 +1,72 @@
+main .colorairpods{
+    background-color: #929292;
+}
+
+main .contenedorairpods{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    .contenedorairpods_Segundageneracion{
+        margin-top: 20px;
+    }
+    .airpods_Segunda{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+}
+}
+
+.contenedorairpodsmax{
+    background-color: white;
+    border-radius: 40px;
+}
+
+.contenedorairpods .airpods_Tercera{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+.contenedorairpods .airpodsmaxs{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: 20px;
+}
+
+main section .textair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .textpods{
+        position: absolute;
+        top: 50%;
+        font-size: 60px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 15px 5px 5px white;
+    }
+    .textpods_Tergene{
+        position: absolute;
+        top: 110%;
+        font-size: 60px;
+        padding: 35px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+         text-shadow: 15px 5px 5px white;
+    }
+    .textpods_Max{
+        position: absolute;
+        top: 170%;
+        font-size: 60px;
+        text-align: center;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+         text-shadow: 15px 5px 5px white;
+    }
+}

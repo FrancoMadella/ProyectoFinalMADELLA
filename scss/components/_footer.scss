@@ -1,0 +1,14 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0000008f;
+    img{
+        width: 200px;
+    }
+    .contenedor-redes img{
+        width: 70px;
+    }
+}

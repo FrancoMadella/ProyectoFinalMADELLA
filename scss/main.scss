@@ -1,0 +1,26 @@
+@import "utilities/reset";
+/*estilo y responsive de index*/
+@import "components/header";
+@import "pages/main-index";
+@import "components/footer";
+@import "utilities/media-queries";
+
+/*estilo y responsive de iphone*/
+
+@import "pages/main-iphone";
+@import "utilities/media-queriesiphone";
+
+/*estilo y responsive de Mac*/
+
+@import "pages/main-mac";
+@import "utilities/media-queriesmac";
+
+/*estilo y responsive de Airpods*/
+
+@import "pages/main-airpods";
+@import "utilities/media-queriesairpods";
+
+/*estilo y responsive de soporte*/
+
+@import "pages/main-soporte";
+@import "utilities/media-queriessoporte";

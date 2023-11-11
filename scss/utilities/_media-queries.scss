@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px){
+    main .contenidoiphone{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin-left: 10%;
+    }
+    main article .textservicio{
+        width: 50%;     
+    }
+    main .imagenpago{
+        height: 60px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    main .contenidoiphone{
+        grid-template-columns: repeat(3, 3fr);
+        margin-left: 5%;
+    }
+    main article .contenidopregunta{
+        padding: 80px;
+    }
+    main .imagenpago{
+        width: 70%;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main .contenidoiphone{
+        display: flex;
+        flex-direction: row;
+    }
+    main article .contenedorinfo{
+        display: flex;
+    }
+    .contenedorservicios{
+        display: flex;
+        flex-direction: inherit;
+        margin-top: 10px;
+    }
+   
+    main .imagenpago{
+        width: 50%;
+    }
+    main .carousel img{
+        height: 500px;
+    }
+}
